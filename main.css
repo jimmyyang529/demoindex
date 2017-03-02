@@ -1,0 +1,169 @@
+/*
+branding color:#3FCEFF ;
+*/
+h1,h2,h3{
+	margin:0;
+}
+
+h1{
+	text-transform: uppercase;
+}
+h2{
+	font-size: 2.3rem;
+	text-transform: capitalize;
+	margin-bottom:40px 0;
+}
+
+section{
+	padding: 100px 0;
+}
+
+
+ul{
+	margin: 0;
+	padding-left: 0;
+
+}
+
+li{
+	list-style-type: none;
+}
+
+p{
+	margin: 30px 0;
+	font-weight: 200;
+}
+
+
+
+.button{
+	display:inline-block;
+	border-radius: 30px;
+	text-transform: uppercase;
+	background-color: #3FCEFF;
+	font-size: .9rem;
+	letter-spacing: 1px;
+	color: white;
+	padding: 16px 28px;
+	text-decoration: none;
+}
+
+
+
+
+.clearfix:after,.row:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.container{
+	display: block;
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.video-wrapper{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width: 95%;
+	height:300px;
+	background-color: #ccc;
+
+}
+
+.video-wrapper iframe{
+	position: relative;
+	left:-30px;
+	top:-30px;
+}
+
+.row{
+	margin: 0 -15px;
+
+}
+
+.col-6{
+	position:relative;
+	float:left;
+	padding: 0 15px;
+	width:50%;
+	box-sizing: border-box;
+
+}
+
+
+
+
+#logo{
+	float:left;
+}
+
+nav{
+	float:right;
+    line-height: 108px;
+    text-transform: uppercase;
+}
+
+nav li{
+	float: left;
+
+}
+
+nav a{
+	display: block;
+	padding: 0 21px;
+	height:100%;
+	color:#333;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+nav a:hover{
+	color: #3FCEFF;
+}
+
+
+
+
+.banner{
+    padding:235px 0;
+	background-image:url(http://loremflickr.com/2000/900);
+	background-size: cover;
+	background-position: 50px 50px;
+	background-repeat: no-repeat;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.banner .intro-wrapper{
+	margin-bottom:120px;
+	background: rgba(255,255,255,.5);
+}
+
+.banner .intro-text{
+	font-size: 1.2rem;
+	font-weight: 100px;
+	letter-spacing: 4px;
+	margin-bottom: 10px
+}
+
+.banner h1{
+	font-size: 3.4rem;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.banner .sub-title{
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+}
+
+
+#about-company .col-6:nth-child(2){
+	height:335px;
+	
+}
+
+
+
