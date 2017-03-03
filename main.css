@@ -11,7 +11,9 @@ h1{
 h2{
 	font-size: 2.3rem;
 	text-transform: capitalize;
+	padding: 50px;
 	margin-bottom:40px 0;
+	text-align: center;
 }
 
 section{
@@ -105,6 +107,8 @@ nav{
     text-transform: uppercase;
 }
 
+
+
 nav li{
 	float: left;
 
@@ -130,7 +134,7 @@ nav a:hover{
     padding:235px 0;
 	background-image:url(http://loremflickr.com/2000/900);
 	background-size: cover;
-	background-position: 50px 50px;
+	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	text-align: center;
 	text-transform: uppercase;
@@ -155,7 +159,7 @@ nav a:hover{
 }
 
 .banner .sub-title{
-	font-size: 0.9rem;
+	font-size: .9rem;
 	letter-spacing: 1px;
 }
 
@@ -166,4 +170,143 @@ nav a:hover{
 }
 
 
+label{
+	font-size: .9rem;
+	text-transform: uppercase;
+}
+
+#our-skills .col-6{
+	padding: 20px 15px;
+}
+
+.progress-bar{
+	background-image: url(http://placehold.it/200x5);
+}
+
+.progress-red{
+	background-color: #FC657A;
+}
+
+.progress-blue{
+	background-color: #51D5FD;
+}
+
+.progress-green{
+	background-color: #24DAAA;
+}
+
+.progress-yellow{
+	background-color: #F7C642;
+}
+
+
+.progress-red .percentage{
+	margin-left: 490px;
+}
+
+.progress-blue .percentage{
+	margin-left: 520px;
+}
+
+.progress-green .percentage{
+	margin-left: 500px;
+}
+
+.progress-yellow .percentage{
+	margin-left: 490px;
+}
+
+#line1{
+  width: 50px;
+  border-color: #51D5FD;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#line2{
+  width: 25px;
+  border-color: #51D5FD;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.col-3{
+	position:relative;
+	float:left;
+	padding: 30px 15px;
+	width:25%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.col-3 h3{
+ padding-top:15px;
+ text-transform: uppercase;
+}
+
+.col-3:hover{
+	color: #51D5FD;
+	border-width: 1px;
+	border-width: 0;
+	border-bottom-width: 2px;
+	border-style: solid;
+	box-shadow:4px 4px 10px rgba(20%,20%,40%,0.5)
+}
+
+
+#col-4{
+	position:relative;
+	margin-left:30px;
+	float:left;
+	padding: 30px 15px;
+	width:30%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#col-4:hover{
+	color: #51D5FD;
+	border-width: 0;
+	border-bottom-width: 2px;
+
+}
+
+#col-3{
+	text-align: center;
+	float:left;
+	padding:30px;
+	margin:0 auto;
+	width:20%;
+	box-sizing: border-box;
+
+}
+
+#img_ratio{
+	background-image: url(http://loremflickr.com/1015/173);
+	display: block;
+	width:100%;
+	margin:0 auto;
+}
+
+#menu-trigger{
+  	display:none;
+  	width:50px;
+  	position: fixed;
+  	top:0;
+  	right:0;
+}	
+
+@media(max-width:320px){
+	nav{
+		display:none;
+	}
+
+    #menu-trigger{
+    	display:block;
+    }
+}
 
